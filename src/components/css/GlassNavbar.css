@@ -1,0 +1,103 @@
+.menu-bar {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  border-radius: 25px;
+  padding: 10px 20px;
+  z-index: 1000;
+  box-sizing: border-box;
+  box-shadow: 0 0 15px rgba(0,0,0,0.8);
+}
+
+/* Left logo section */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.logo-img {
+  height: 30px;
+  width: 30px;
+}
+
+.logo-text {
+  color: #eee; /* soft white */
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  user-select: none;
+}
+
+/* Center nav links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  color: #eee;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 15px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  white-space: nowrap;
+}
+
+.nav-links li:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* subtle white highlight */
+  color: #ccc; /* lighter grey on hover */
+}
+
+/* Right auth buttons */
+.auth-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.login-btn {
+  background: none;
+  border: 1.5px solid #eee;
+  color: #eee;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 15px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ccc;
+}
+
+.signup-btn {
+  background-color: #333; /* dark grey button */
+  border: 1.5px solid #eee;
+  color: #eee;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 8px 20px;
+  border-radius: 15px;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.signup-btn:hover {
+  background-color: #555; /* lighter grey on hover */
+  border-color: #ccc;
+}

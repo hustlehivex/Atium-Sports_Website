@@ -1,3 +1,16 @@
+/* Add this in your CSS or main style file */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&display=swap');
+
+.home-header11 h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  color: white;
+  margin: 0;
+  line-height: 1.1;
+}
+
+
 .home-container1 {
   width: 100%;
   display: flex;
@@ -145,7 +158,18 @@
 .home-text14 {
   margin-bottom: var(--dl-layout-space-unit);
 }
- 
+ .floating-text {
+      font-size: 3rem;
+      opacity: 0;
+      transform: translateY(40px);
+      transition: all 1.2s ease-out;
+    }
+
+    /* Active state when in view */
+    .floating-text.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
 .home-container3 {
   flex: 0 0 auto;
   width: auto;
@@ -189,6 +213,7 @@
   height: 100%;
   position: absolute;
   object-fit: cover;
+  z-index: 0; 
 }
  
 .home-hero-content {
@@ -216,11 +241,30 @@
   align-items: flex-start;
   flex-direction: column;
 }
+
+.home-header11 h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  color: white;
+  margin: 0;
+  line-height: 1.1;
+}
+
+
+.gradient-text {
+  /* background: linear-gradient(90deg,#a8acac, #5acbee, #5e6161); */
+  -webkit-background-clip: text;
+  /* -webkit-text-fill-color: transparent; */
+  background-clip: text;  /* for Firefox */
+  text-fill-color: transparent;
+}
+
  
 .home-heading10 {
   color: rgb(255, 255, 255);
-  font-size: 100px;
-  max-width: 790px;
+  font-size: 60px;
+  max-width: 1200px;
   font-style: normal;
   font-weight: 500;
 }

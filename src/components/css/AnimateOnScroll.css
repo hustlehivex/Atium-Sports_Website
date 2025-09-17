@@ -1,0 +1,10 @@
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all ease-out; /* duration is controlled by React */
+}
+
+.animate-on-scroll.show {
+  opacity: 1;
+  transform: translateY(0);
+}

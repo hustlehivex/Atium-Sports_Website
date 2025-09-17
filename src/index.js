@@ -10,11 +10,13 @@ import {
 import './style.css'
 import Home from './views/home'
 import NotFound from './views/not-found'
+import SplashScreen from './components/SplashScreen';
 
 const App = () => {
   return (
     <Router>
       <Switch>
+        {/* <Route component={SplashScreen} exact path="/"/> */}
         <Route component={Home} exact path="/" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
