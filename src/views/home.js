@@ -9,7 +9,10 @@ import Line from '../components/line'
 import IconContainer from '../components/icon-container'
 import './home.css'
 import GlassNavbar from '../components/GlassNavbar'
-import WhatWeDoSection from '../components/WhatWeDoSection'
+import AboutUs from '../components/AboutUs'
+import sketch from "../assets/img/Untitled design.png"; // <-- change path if needed
+import AboutUsGallery from '../components/AboutUsGallery'
+
 
 
 const Home = (props) => {
@@ -81,16 +84,16 @@ Empowering Sports organisations and their athletes to reach their peak performan
 </AnimateOnScroll> */}
 
 </section>
-
-    <WhatWeDoSection />
+  
 
       <section className="home-note">
-        <h2 className="home-caption11">
-          The most comprehensive lorem ipsum dolor sit amet, consectetur
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna.
-        </h2>
+
+          <h2 className="home-caption11">
+              We go beyond traditional athlete management, integrating evidence-backed research to measure relevant training data. This not only streamlines collaboration but also facilitates faster and more informed decision-making. ATIUM is a collaborative platform that brings together all stakeholders—athletes, coaches, medical staff, and leaders— onto a single data layer.
+          </h2>
       </section>
+
+            <AboutUs />
       <section className="home-statistics">
         <div className="home-content10">
           <div className="home-stat1">
@@ -114,6 +117,8 @@ Empowering Sports organisations and their athletes to reach their peak performan
           </div>
         </div>
       </section>
+
+
       <section className="home-slider1">
         <div className="home-header15">
           <h2 className="home-heading11">
@@ -155,6 +160,8 @@ Empowering Sports organisations and their athletes to reach their peak performan
           </div>
         </div>
       </section>
+
+
       <section className="home-slides">
         <div className="home-slider2 slider blaze-slider">
           <div className="home-slider-container blaze-container">
@@ -313,6 +320,8 @@ new BlazeSlider(el, {
           </div>
         </div>
       </section>
+
+
       <section className="home-get-started">
         <div className="home-header-container2">
           <div className="home-header20">
@@ -338,6 +347,8 @@ new BlazeSlider(el, {
         </div>
         <img alt="image" src="/getstarted-800w.png" className="home-image15" />
       </section>
+
+
       <section className="home-objectives">
         <div className="home-content15">
           <span className="home-text29">Objectives</span>
@@ -381,6 +392,8 @@ new BlazeSlider(el, {
           </div>
         </div>
       </section>
+
+
       <section className="home-growth">
         <div className="home-content16">
           <div className="home-header21">
@@ -442,6 +455,8 @@ new BlazeSlider(el, {
           <img alt="image" src="/growth-1400w.png" className="home-image16" />
         </div>
       </section>
+
+
       <section className="home-experience">
         <div className="home-images2">
           <div className="home-square2"></div>
@@ -528,6 +543,8 @@ new BlazeSlider(el, {
           </div>
         </div>
       </section>
+
+
       <section className="home-create">
         <div className="home-content20">
           <div className="home-header25">
@@ -553,6 +570,8 @@ new BlazeSlider(el, {
           </button>
         </div>
       </section>
+
+
       <section className="home-comparision">
         <div className="home-header-container4">
           <div className="home-header26">
@@ -714,6 +733,8 @@ new BlazeSlider(el, {
           </div>
         </div>
       </section>
+
+
       <section className="home-data">
         <div className="home-header-container5">
           <div className="home-header27">
@@ -874,6 +895,8 @@ new BlazeSlider(el, {
           </div>
         </div>
       </section>
+
+
       <section className="home-customer">
         <div className="home-header32">
           <h2 className="home-heading22">
@@ -978,6 +1001,8 @@ new BlazeSlider(el, {
           </button>
         </div>
       </section>
+
+
       <section className="home-faq">
         <div className="home-header33">
           <h2 className="home-heading23">
@@ -1077,6 +1102,8 @@ new BlazeSlider(el, {
           </div>
         </div>
       </section>
+
+
       <div className="home-footer">
         <div className="home-content37">
           <div className="home-main">
@@ -1169,6 +1196,9 @@ new BlazeSlider(el, {
           </div>
         </div>
       </div>
+
+      <AboutUsGallery />
+
       <div>
         <div className="home-container9">
           <Script
