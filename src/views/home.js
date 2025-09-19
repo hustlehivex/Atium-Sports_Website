@@ -94,12 +94,13 @@ Empowering Sports organisations and their athletes to reach their peak performan
       </section>
 
             <AboutUs />
+            
       <section className="home-statistics">
         <div className="home-content10">
           <div className="home-stat1">
             <h3 className="home-header12">$1.69M</h3>
             <span className="home-caption12">
-              Consectetur adipiscing
+              Happy Clients
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
@@ -107,14 +108,7 @@ Empowering Sports organisations and their athletes to reach their peak performan
               />
             </span>
           </div>
-          <div className="home-stat2">
-            <h3 className="home-header13">Multiverse</h3>
-            <span className="home-caption13">Unde omnis iste</span>
-          </div>
-          <div className="home-stat3">
-            <h3 className="home-header14">500K</h3>
-            <span className="home-caption14">Accusantium doloremque</span>
-          </div>
+         
         </div>
       </section>
 
@@ -175,11 +169,13 @@ Empowering Sports organisations and their athletes to reach their peak performan
                   />
                   <div className="home-content11">
                     <div className="home-header16">
-                      <h3 className="home-heading12">Metaverse</h3>
+
+                      <h3 className="home-heading12">Getting Started with high performance was never this easy</h3>
                       <p className="home-caption16">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
+                        Design a high-performance digital framework that is best suited for your organization needs.
+                        Centrally manage data from different sources, look up evidence-backed research to optimize 
+                        the training and engage with different stakeholders including athletes across the entire lifecycle.
+                        Check out our ATIUM Sports platforms extensive capabilities from our features page.
                         <span
                           dangerouslySetInnerHTML={{
                             __html: ' ',
@@ -203,11 +199,11 @@ Empowering Sports organisations and their athletes to reach their peak performan
                   />
                   <div className="home-content12">
                     <div className="home-header17">
-                      <h3 className="home-heading13">Ecosystems</h3>
+                      <h3 className="home-heading13">Monitor & Manage</h3>
                       <p className="home-caption18">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
+                        Track and analyse data from performance tests, clinical assessments for individual athletes and teams. 
+                        Gain instant insights and baseline your performance training by uploading existing historical data from any source.
+                         Easily schedule assessments and workouts for athletes while collaborating using shared calendars.
                         <span
                           dangerouslySetInnerHTML={{
                             __html: ' ',
@@ -231,11 +227,11 @@ Empowering Sports organisations and their athletes to reach their peak performan
                   />
                   <div className="home-content13">
                     <div className="home-header18">
-                      <h3 className="home-heading14">Development</h3>
+                      <h3 className="home-heading14">Intelligent & Actionable Insights</h3>
                       <p className="home-caption20">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
+                        Benefit from holistic performance intelligence across the entire athlete training program. With global scoring and training load trend analysis, 
+                        use key performance indicators represented in easy-to-understand dashboards to finally put your 
+                        athlete's training data to good use and take decisions faster.
                         <span
                           dangerouslySetInnerHTML={{
                             __html: ' ',

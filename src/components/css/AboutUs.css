@@ -2,6 +2,8 @@
   background: #fff;
   padding: 60px 80px;
   font-family: "Poppins", sans-serif;
+  max-width:1300px;
+  border-radius: 40px;
 }
 
 /* ===== FEATURE CARDS ===== */
