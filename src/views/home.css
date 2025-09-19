@@ -907,6 +907,8 @@ max-height: 1000px;
   padding-bottom: var(--dl-layout-space-fiveunits);
   justify-content: space-between;
   border-top-width: 1px;
+  border-bottom-width: 1px;
+  margin-bottom: 40px;
 }
  
 .home-text29 {

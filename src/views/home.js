@@ -93,6 +93,50 @@ Empowering Sports organisations and their athletes to reach their peak performan
           </h2>
       </section>
 
+       <section className="home-objectives">
+        <div className="home-content15">
+          <span className="home-text29">Objectives</span>
+          <div className="home-objectives-list">
+            <div className="objective">
+              <h3 className="home-text30">Growth</h3>
+              <p className="home-text31">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </p>
+            </div>
+            <div className="objective home-objective2">
+              <h3 className="home-text32">Develop</h3>
+              <p className="home-text33">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </p>
+            </div>
+            <div className="objective home-objective3">
+              <h3 className="home-text34">Optimize</h3>
+              <p className="home-text35">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
             <AboutUs />
             
       <section className="home-statistics">
@@ -255,11 +299,11 @@ Empowering Sports organisations and their athletes to reach their peak performan
                   />
                   <div className="home-content14">
                     <div className="home-header19">
-                      <h3 className="home-heading15">Integration</h3>
+                      <h3 className="home-heading15">Optimise & Improve</h3>
                       <p className="home-caption22">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
+                        Benefit from holistic performance intelligence across the entire athlete training program. With global scoring and training load trend analysis,
+                        use key performance indicators represented in easy-to-understand dashboards to finally put your athlete's training 
+                        data to good use and take decisions faster.
                         <span
                           dangerouslySetInnerHTML={{
                             __html: ' ',
